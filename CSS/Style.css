@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #eff2f1;
+    font-family: "Inter", sans-serif;
+ }
+.fur{
+    background: #3b5d50;
+}
+.logo{
+    font-size: 31px;
+    font-weight: 600;
+}
+.main{
+    color: gainsboro;
+    font-weight: 500;
+}
+.one{
+    font-size: 15.5px;
+}
+.logo_icon{
+    font-size: 25px;
+    color: #fff;
+}
+.one:hover{
+    border-bottom: 4px solid yellow;
+    color: #fff;
+}
+.main1{
+    /* height: 530px; */
+}
+.main_one{
+
+}
+.main_two{
+    font-size: 50px;
+    font-weight: 500;
+}
+.main_button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.couch{
+    position: relative;
+    z-index: 1;
+}
+.three{
+    position: absolute;
+    top: 115px;
+    right: 50px;
+    z-index: 0;
+}
+.sun{
+    /* height: 500px; */
+}
+.main2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.main2_one{
+    font-weight: 600;
+}
+.plus_one{
+    font-size: 35px;
+    position: relative;
+    display: none;
+}
+.main2_two{
+    position: relative;
+    top: 20px;
+}
+.main2_two:hover{
+    position: relative;
+    top: 0px;
+    background-color: beige;
+    border-radius: 20px;
+}
+.main2_two:hover .plus_one{
+    display: block;
+    transition-timing-function: linear;
+    position: relative;
+    transform: translateY(25px);
+}
+.choose{
+    /* height: 800px; */
+}
+.photo{
+    /* height: 600px; */
+    border-radius: 30px;
+}
+.main3{
+    font-size: 35px;
+    font-weight: 500;
+}
+.photo{
+    position: relative;
+    z-index: 1;
+}
+.us{
+    position: absolute;
+    top: 1125px;
+    left: 780px;
+    z-index: 0;
+}
+.design{
+    height: 800px;
+}
+.sofa{
+    height: 600px;
+    border-radius: 30px;
+    position: relative;
+    /* left: 105px; */
+    z-index: 1;
+}
+.lamp{
+    height: 225px;
+    border-radius: 30px;
+    position: relative;
+    top: -185px;
+    left: 15px;
+}
+.bench{
+    height: 450px;
+    border-radius: 30px;
+    position: relative;
+    top: -355px;
+    left: 355px;
+    z-index: 2;
+}
+.green{
+    position: relative;
+    top: -800px;
+    left: -515px;
+    z-index: -1;
+}
+.help{
+    font-size: 35px;
+    font-weight: 500;
+}
+.button_black{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+}
+.chair{
+    height: 250px;
+}
+.nordic{
+    height: 110px;
+    width: 100px;
+    background: #dee1e0;
+    background-size: 80px 50px;
+    border-radius: 30px;
+}
+.read{
+    text-decoration: none;
+}
+.testmonials{
+    line-break: loose;
+}
+.test{
+    font-size: 35px;
+    font-weight: 500;
+}
+.monials{
+    font-size: 18px;
+    text-align: center;
+}
+.blog{
+    font-size: 35px;
+    font-weight: 500;
+}
+.author-pic{
+    max-width: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 47%;
+}
+.dark{
+    color: solid rgb(10, 10, 10);
+    background-color: black;
+    border-radius: 100%;
+    box-sizing: border-box;
+    background-size: 50px 50px;
+}
+.dark:hover{
+    background-color: #3b5d50;
+}
+.light{
+    background-size: 50px 50px;
+    border-color: coral;
+}
+view{
+    display: inline;
+}
+.post{
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    left: 93%;
+    top: 90px;
+}
+.post:hover{
+    text-decoration: none;
+}
+.all{
+    /* height: 650px; */
+}
+.book{
+    border-radius: 20px;
+}
+.book:hover{
+    opacity: 0.7;
+}
+footer{
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+}
+.sofa_pic{
+    width: 380px;
+    position: relative;
+    top: -80px;
+}
+span{
+    font-weight: 600;
+}
+.mail{
+    height: 30px;
+}
+.news{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn_footer{
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+    background: #3b5d50;
+}
+.custom-social{
+    display: flex;
+}
+.face{
+    font-size: 25px;
+}
+.footer-logo-wrap{
+    position: relative;
+    top: 0;
+}
+input{
+    width: 35%;
+    height: 50px;
+    border-radius: 10px;
+}
+.footer-logo{
+    font-size: 35px;
+    font-weight: 500;
+}
+.copyright{
+    font-size: 14px;
+    color: rgb(135, 128, 128);
+}

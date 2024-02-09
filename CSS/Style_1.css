@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+.fur{
+    background: #3b5d50;
+}
+.menu
+{
+    display: inline-flex;
+    list-style: none;
+}
+.main{
+    color: gainsboro;
+    font-weight: 500;
+}
+.one{
+    padding-left: 40px;
+    font-size: 15.5px;
+}
+.one:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: rgb(177, 182, 24);
+    color: #fff;
+}
+.main1{
+    height: 530px;
+}
+.main_one{
+
+}
+.main_two{
+    font-size: 50px;
+    font-weight: 500;
+}
+.main_button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.sun{
+    height: 500px;
+}
+.main2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.main2_one{
+    font-weight: 600;
+}
+.plus_one{
+    font-size: 35px;
+    position: relative;
+    display: none;
+}
+.main2_two{
+    position: relative;
+    top: 20px;
+}
+.main2_two:hover{
+    position: relative;
+    top: 0px;
+    background-color: beige;
+    border-radius: 20px;
+}
+.main2_two:hover .plus_one{
+    display: block;
+    transition-timing-function: linear;
+    position: relative;
+    transform: translateY(25px);
+}
+.photo{
+    height: 600px;
+    border-radius: 30px;
+}
+.main3{
+    font-size: 35px;
+    font-weight: 500;
+}
